@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabatBeregner", "RabatBeregner\RabatBeregner.csproj", "{10DB0B5E-3F56-452F-93EE-8AC783275E9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{97F0D89E-3D4A-4B58-B660-DBF103D63531}"
+	ProjectSection(ProjectDependencies) = postProject
+		{10DB0B5E-3F56-452F-93EE-8AC783275E9D} = {10DB0B5E-3F56-452F-93EE-8AC783275E9D}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{10DB0B5E-3F56-452F-93EE-8AC783275E9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10DB0B5E-3F56-452F-93EE-8AC783275E9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10DB0B5E-3F56-452F-93EE-8AC783275E9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10DB0B5E-3F56-452F-93EE-8AC783275E9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97F0D89E-3D4A-4B58-B660-DBF103D63531}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97F0D89E-3D4A-4B58-B660-DBF103D63531}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97F0D89E-3D4A-4B58-B660-DBF103D63531}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97F0D89E-3D4A-4B58-B660-DBF103D63531}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3E4A1A73-FA0B-4A55-B427-E82284A76F7B}
+	EndGlobalSection
+EndGlobal
