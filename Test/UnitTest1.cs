@@ -1,4 +1,4 @@
-using RabatBeregner;
+using DiplomOpgaver;
 using System;
 using Xunit;
 

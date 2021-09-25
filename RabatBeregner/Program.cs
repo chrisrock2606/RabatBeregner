@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace RabatBeregner
+namespace DiplomOpgaver
 {
     class Program
     {
@@ -27,6 +27,7 @@ namespace RabatBeregner
                 rabat += 0.02;
             }
             bruttoPris -= rabat * bruttoPris;
+            
             return bruttoPris;
         }
     }

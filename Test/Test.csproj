@@ -20,7 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\RabatBeregner\RabatBeregner.csproj" />
+    <ProjectReference Include="..\RabatBeregner\DiplomOpgaver.csproj" />
   </ItemGroup>
 
 </Project>
